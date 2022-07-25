@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #acd0c0;
+}
+
+.container {
+    width: 800px;
+    height: 300px;
+    margin: 10% auto;
+    background-color: #75b1a9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.vnd-to-usd{
+    border-right:1px solid black ;
+    padding: 0 20px;
+
+}
+.usd-to-vnd {
+    padding: 0 20px;
+    border-left:1px solid black ;
+}
+
+.vnd-to-usd>span,
+.usd-to-vnd>span {
+    font-size: 1.5rem;
+}
+
+.button>.convert,
+.button>.remove {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: rgb(84, 161, 250);
+    color: #fff;
+    border: none;
+    margin: 30px 10px 0 10px;
+}
+
+.vnd input {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    width: 295px;
+    height: 32px;
+}
+
+.vnd span,
+.usd span {
+    font-size: 1.5rem;
+}
+
+.usd {
+    display: flex;
+    align-items: center;
+}
+
+.usd .result-usd {
+    font-size: 1.5rem;
+    width: 294px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 6px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+}
